@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    }
+body{
+    
+    background-color: black;
+    margin: 50%;
+    padding: 0;
+    background: url(images/logincopy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    
+}
+
+.container{
+    
+    width: 400px;
+    margin-top: 50px;
+    padding: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+     position: fixed;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 60px;
+    
+}
+
+
+#formmain{
+   justify-content: center;
+    text-align: center;
+  
+   
+}
+
+h4{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+#firstname{
+
+    padding: 10px;
+    color: white;
+    line-height: 25px;
+    
+}
+#firstname input{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+}
+
+#lastname{
+
+    padding: 10px;
+    color: white;
+    line-height: 25px;
+    
+}
+#lastname input{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+ 
+}
+
+
+#email{
+
+    padding: 10px;
+    color: white;
+    line-height: 25px;
+}
+#email input{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+}
+
+
+#password{
+
+    padding: 10px;
+    color: white;
+    line-height: 25px;
+    
+}
+#password input{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+}
+
+
+#confirm_Password{
+
+    padding: 10px;
+    color: white;
+    line-height: 25px;
+    
+}
+#confirm_Password input{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+}
+.submit{
+padding: 10px;
+
+}
+.submit input{
+    display: block; 
+    width: 100%;
+    border: 0.5px solid lightgray;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    background-color: transparent;
+ color: white;   
+ border-radius: 5px;
+}
+.submit input:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+.agree{
+font-size: 60%;
+padding: 5px;
+text-align: center;
+color:white;
+}
+.agree a{
+    text-decoration: none;
+}
+
+footer{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}

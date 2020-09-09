@@ -62,6 +62,13 @@ h4{
     outline: none;
 }
 
+/* Will increase the input block border size it is an input transsion */
+#firstname input:focus{
+
+    width: 280px;
+    border-color: yellow;
+}
+
 #lastname{
 
     padding: 10px;
